@@ -5,6 +5,10 @@ public class Main {
         System.out.println(stud1.name());
         var stud2 = new Student(2, stud1.name(), 31, stud1.address());
         System.out.println(stud2);
+        System.out.println(stud2.nameToUppercase());
+        Student.printWhatever();
+        var stud3 = new Student(1, "Tutu", 10, "Colombo");
+        System.out.println(stud3.name());
 
         var dum1 = new Dummy(2,3);
         System.out.println(dum1.x());
