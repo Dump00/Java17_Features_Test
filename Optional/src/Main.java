@@ -7,7 +7,7 @@ public class Main {
         Integer age = tutu.map(Cat::getAge).orElse(0);
         System.out.println(age);
 
-//        Cat defCat = tutu.orElse(new Cat("UNKNOWN", 0));  
+//        Cat defCat = tutu.orElse(new Cat("UNKNOWN", 0));
 //        System.out.println(defCat.getAge());
 
 //        if(tutu.isPresent()) {
